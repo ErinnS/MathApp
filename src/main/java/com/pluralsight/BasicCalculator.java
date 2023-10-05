@@ -13,7 +13,7 @@ public class BasicCalculator {
         myScanner.nextLine();
 
         System.out.println("Possible calculations: ");
-        System.out.print("\n(A)dd \n(S)ubtract \n(M)ultiply \n(D)ivide ");
+        System.out.println("\n(A)dd \n(S)ubtract \n(M)ultiply \n(D)ivide ");
         String action = myScanner.nextLine();
         System.out.println(" Please select an option");
         int option = myScanner.nextInt();
