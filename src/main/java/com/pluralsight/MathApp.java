@@ -10,10 +10,12 @@ public class MathApp {
 
         int carPrice = 30_000;
         int truckPrice = 60_000;
-        int highestPrice = Math.max(carPrice, truckPrice);
-        System.out.println("The highest price is" + highestPrice);
+        int lowestPrice = Math.min(carPrice, truckPrice);
+        System.out.println("The lowest price is" + lowestPrice);
 
-        float areaofcirle = (float) 7.25f;
+        double radius = 7.25;
+        double area = Math.PI * Math.pow(radius,2);
+        System.out.println("The area of a circle with a radius of" + radius + "is" + area);
     }
 
 
